@@ -1,0 +1,63 @@
+[ERROR] 2018-12-29 14:36:53,817 method:org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:42)
+
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field captchaProducer in com.zhumeng.modules.sys.web.CaptchaController required a bean of type 'com.google.code.kaptcha.Producer' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.google.code.kaptcha.Producer' in your configuration.
+
+[ERROR] 2018-12-29 14:38:13,937 method:org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:42)
+
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+[ERROR] 2018-12-29 14:39:00,490 method:com.zhumeng.modules.sys.web.MainSiteErrorController.errorHtml(MainSiteErrorController.java:28)
+error<<====================>>500
+[ERROR] 2018-12-29 14:41:20,130 method:com.zhumeng.modules.sys.web.MainSiteErrorController.errorHtml(MainSiteErrorController.java:28)
+error<<====================>>500
+[ERROR] 2018-12-29 14:45:06,362 method:com.zhumeng.modules.sys.web.MainSiteErrorController.errorHtml(MainSiteErrorController.java:28)
+error<<====================>>500
+[ERROR] 2018-12-29 14:45:13,806 method:com.zhumeng.modules.sys.web.MainSiteErrorController.errorHtml(MainSiteErrorController.java:28)
+error<<====================>>500
+[ERROR] 2018-12-29 14:46:30,847 method:com.zhumeng.modules.sys.web.MainSiteErrorController.errorHtml(MainSiteErrorController.java:28)
+error<<====================>>500
+[ERROR] 2018-12-29 14:48:52,004 method:com.zhumeng.modules.sys.web.MainSiteErrorController.errorHtml(MainSiteErrorController.java:28)
+error<<====================>>500
+[ERROR] 2018-12-29 14:49:45,589 method:com.zhumeng.modules.sys.web.MainSiteErrorController.errorHtml(MainSiteErrorController.java:28)
+error<<====================>>500
+[ERROR] 2018-12-29 15:01:08,840 method:com.zhumeng.modules.sys.web.MainSiteErrorController.errorHtml(MainSiteErrorController.java:28)
+error<<====================>>500
+[ERROR] 2018-12-29 15:05:49,023 method:com.zhumeng.modules.sys.web.MainSiteErrorController.errorHtml(MainSiteErrorController.java:28)
+error<<====================>>500
+[ERROR] 2018-12-29 15:17:54,600 method:com.zhumeng.modules.sys.web.MainSiteErrorController.errorHtml(MainSiteErrorController.java:28)
+error<<====================>>500
+[ERROR] 2018-12-29 15:17:55,565 method:com.zhumeng.modules.sys.web.MainSiteErrorController.errorHtml(MainSiteErrorController.java:28)
+error<<====================>>500
+[ERROR] 2018-12-29 16:50:47,577 method:com.zhumeng.modules.sys.web.MainSiteErrorController.errorHtml(MainSiteErrorController.java:28)
+error<<====================>>500
+[ERROR] 2018-12-29 16:53:20,481 method:org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1085)
+[THYMELEAF][http-nio-8080-exec-8] Exception processing template "main": Error during execution of processor 'at.pollux.thymeleaf.shiro.processor.attribute.HasRoleAttrProcessor' (main)
+[ERROR] 2018-12-29 16:53:20,500 method:com.zhumeng.modules.sys.web.MainSiteErrorController.errorHtml(MainSiteErrorController.java:28)
+error<<====================>>500
+[ERROR] 2018-12-29 16:53:26,433 method:org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1085)
+[THYMELEAF][http-nio-8080-exec-3] Exception processing template "user/list": Error during execution of processor 'at.pollux.thymeleaf.shiro.processor.element.HasPermissionElementProcessor' (user/list)
+[ERROR] 2018-12-29 16:53:26,438 method:com.zhumeng.modules.sys.web.MainSiteErrorController.errorHtml(MainSiteErrorController.java:28)
+error<<====================>>500
