@@ -17,7 +17,7 @@ public class ServiceLogAspect {
 
 	ThreadLocal<Long> startTime = new ThreadLocal<Long>();
 
-	@Pointcut("execution(public * com.zhumeng.modules.service..*.*(..))")
+	@Pointcut("execution(public * com.zhumeng.modules.*.service..*.*(..))")
 	public void serviceLog() {
 	}
 

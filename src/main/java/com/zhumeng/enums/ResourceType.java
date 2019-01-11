@@ -39,4 +39,8 @@ public enum ResourceType {
         return list;
     }
 
+
+//    public static void getName(){
+//
+//    }
 }

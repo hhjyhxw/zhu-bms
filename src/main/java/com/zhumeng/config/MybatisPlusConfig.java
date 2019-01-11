@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@MapperScan("com.zhumeng.modules.sys.mapper")
+@MapperScan("com.zhumeng.modules.*.mapper")
 public class MybatisPlusConfig {
     /**
      * mybatis-plus SQL执行效率插件【生产环境可以关闭】

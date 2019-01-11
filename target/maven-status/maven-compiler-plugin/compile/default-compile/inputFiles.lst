@@ -53,5 +53,6 @@ F:\20180917intelliidea_myproduct\zhu-bms\src\main\java\com\zhumeng\common\Consta
 F:\20180917intelliidea_myproduct\zhu-bms\src\main\java\com\zhumeng\modules\sys\web\LogController.java
 F:\20180917intelliidea_myproduct\zhu-bms\src\main\java\com\zhumeng\modules\sys\web\UserController.java
 F:\20180917intelliidea_myproduct\zhu-bms\src\main\java\com\zhumeng\config\redis\RedisService.java
+F:\20180917intelliidea_myproduct\zhu-bms\src\main\java\com\zhumeng\config\shiro\ShiroConfig2.java
 F:\20180917intelliidea_myproduct\zhu-bms\src\main\java\com\zhumeng\modules\sys\service\impl\LogServiceImpl.java
 F:\20180917intelliidea_myproduct\zhu-bms\src\main\java\com\zhumeng\modules\sys\web\LoginLogController.java
